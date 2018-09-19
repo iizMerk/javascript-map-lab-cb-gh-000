@@ -22,4 +22,4 @@ const zebraStripes = [
   { width: 7.31, color: null }
 ];
 
-const sortedRobots = robots.map(robot: ()=> robot.alliance = 'autobot')
+const sortedRobots = robots.map(robot, ()=> robot.alliance = 'autobot')
